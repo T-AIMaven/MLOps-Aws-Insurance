@@ -1,0 +1,20 @@
+[tool.pylint.messages_control]
+# Disable specific pylint messages
+disable = [
+    "redefined-outer-name",     # W0621
+    "trailing-whitespace",      # C0303
+    "snake_case",               # C0103 
+]
+
+[tool.black]
+line-length = 130
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 130
+
+
+
+

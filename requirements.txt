@@ -1,0 +1,16 @@
+numpy
+pandas
+ipykernel
+scikit-learn==1.2.1
+python-dotenv
+ipytest
+sagemaker
+sagemaker[local]
+comet-ml
+tensorflow==2.12
+Flask
+coverage
+pytest-cov
+pylint
+flake8
+black
